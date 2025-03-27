@@ -11,7 +11,7 @@ jobs:
         
         steps:
             - name : Checkout de ramas del codigo
-                uses: actions /checkout@v3
+                uses: actions/checkout@v3
 
             - name : Instalar k6
                 run: curl -s https://packagecloud.io/install/repositories/grafana/stable/script.deb.sh |sudo bash
